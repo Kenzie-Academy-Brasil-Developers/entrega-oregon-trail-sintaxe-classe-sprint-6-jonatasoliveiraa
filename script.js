@@ -54,6 +54,9 @@ class Wagon{
         })
         return sick ? true : false
     }
+    // shouldQuarantine(){ 
+    //     return this.passengers.find(({isHealthy})=>isHealthy===false) != undefined 
+    // }
 
     totalFood(){
         let total = 0
